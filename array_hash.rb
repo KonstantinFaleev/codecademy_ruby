@@ -44,3 +44,8 @@ lunch_order = {
 lunch_order.each do |name, eat|
   puts "#{eat}"
 end
+
+# Write a loop that only puts the even values of my_array
+my_array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+my_array.each { |num| puts num unless num % 2 !=0 }
